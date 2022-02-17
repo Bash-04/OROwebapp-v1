@@ -1,0 +1,156 @@
+/*header*/
+
+* {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .box{
+        background-color: #f3b229;
+        max-height: 160vh;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+/**de bovenbalk van het bestelmenu**/
+    .bovenbalk{
+        display: flex;
+        background-color: #5e2859;
+        height: 8.5rem;
+    }
+    .btn{
+        display: inline-block;
+        background-color: #f3b229;
+        color: black;
+        font-size: 40px;
+        border: 1px solid black;
+        position: center;
+        height: 60%;
+        width: 39%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .btn a{
+        background-color: #f3b229;
+    }
+    .button{
+        background-color: #f3b229;
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 60%;
+        width: 39%;
+    }
+    .btn2{
+        display: inline-block;
+        background-color: #f3b229;
+        color: black;
+        font-size: 40px;
+        border: 1px solid black;
+        position: center;
+        height: 60%;
+        width: 39%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .btn2 a{
+        background-color: #f3b229;
+    }
+    .button2{
+        background-color: #f3b229;
+        margin-top: 2%;
+        margin-left: 30%;
+        height: 60%;
+        width: 39%;
+    }
+    .dem0{
+        display: inline-block;
+        align-items: center;
+        background-color: #5e2859;
+        height: 30%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .dem1{
+        background-color: #5e2859;
+        height: 105%;
+        width: 105%;
+        margin-top: 5%;
+    }
+    .dem2{
+        display: flex;
+        background-color: #5e2859;
+        height: 105%;
+        width: 105%;
+    }
+    .demo{
+        background-color: #f3b229;
+        color: black;
+        border: 1px solid black;
+        height: 60%;
+        margin-top: 2%;
+    }
+    .demo2{
+        background-color: #f3b229;
+        color: black;
+        border: 1px solid black;
+        height: 60%;
+        margin-top: 2%;
+    }
+
+    .middenstuk{
+        display: flex;
+    }
+    .bestellen{
+        display: flex;
+        background-color: #fff;
+        height: 100%;
+        width: 65%;
+    }
+    .bestellen button{
+        background-color: rgb(0, 119, 255);
+        display: inline-block;
+        color: #fff;
+        border: 1px solid #000;
+        padding: 2rem 6rem;
+    }
+    .l1{
+        position: relative;
+        margin-top: 0%;
+        margin-left: 12%;
+    }
+    .l2{
+        position: relative;
+        margin-top: 0%;
+    }
+    .knop{
+        margin-top: 5%;
+        width: 80%;
+    }
+
+    .bestelling{
+        display: block;
+        background-color: #f3b229;
+        height: 95%;
+        width: 35%;
+        align-items: center;
+    }
+    .bestelling h1{
+        background-color: #f3b229;
+        margin-top: 3%;
+        margin-left: 25%;
+        font-size: 180%;
+    }
+    .keuze1{
+        margin-top: 5%;
+    }
+    .keuze2{
+        margin-top: 5%;
+    }
+    .keuze3{
+        margin-top: 5%;
+    }
+    .keuze4{
+        margin-top: 5%;
+    }
