@@ -116,6 +116,9 @@
         justify-content: space-evenly;
         display: flex;
     }
+    .pwd a{
+        cursor: default;
+    }
     .pwde img{
         max-height: 80%;
         max-width: 80%;
