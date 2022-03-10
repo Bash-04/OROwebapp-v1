@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" consent="with=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>ORO</title><link rel="icon" href="images/image-icon.png">
+    <link rel="stylesheet" href="bestellen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+<!--bovenbalk-->
+    <section class="bovenbalk">
+        <div class="btn">
+            <a href="index.html"><button class="button">DRINKEN</button></a>
+        </div>
+        <div class="btn2">
+            <a href="index.html"><button class="button2">ONTBIJT</button></a>
+        </div>
+        
+<!--dag, datum, maand-->
+        <div class="dem0">
+        <div class="dem1">
+        <p class="demo2" id="demo2"></p>
+        </div>
+        <div class="dem2">
+        <p class="demo" id="demo"></p>
+        </div>
+        </div>
+            <script>
+                const maanden = [" Januari"," Februari"," Maart"," April"," Mei"," Juni"," Juli"," Augustus"," September"," Oktober"," November"," December"];
+                const dagen = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
+
+                const d = new Date();
+                let month = maanden[d.getMonth()];
+                document.getElementById("demo").innerHTML = d.getDate() + month;
+                let day = dagen[d.getDay()];
+                document.getElementById("demo2").innerHTML = day;
+            </script>
+    </section>
+
+<!--middenstuk-->
+    <section class="middenstuk">
+        <section class="bestellen">
+            <div class="l1">
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen2()">Pizza</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+            </div>
+            <div class="l2">
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+                <button class="knop" onclick="gekozen()">Hamburger</button>
+            </div>
+        </section>
+
+        <section class="bestelling">
+            <h1>MIJN BESTELLING</h1>
+            <div class="keuze1">
+                <p id="keuze"></p>
+            </div>
+            <div class="keuze2">
+                <p id="keuze2"></p>
+            </div>
+            <div class="keuze3">
+                <p id="keuze3"></p>
+            </div>
+            <div class="keuze4">
+                <p id="keuze4"></p>
+            </div>
+            <div class="bestelknop"></div>
+        </section>
+            <script>
+            function gekozen() {
+            document.getElementById("keuze").innerHTML = "hamburger";
+            }
+            </script>
+            <script>
+            function gekozen2() {
+            document.getElementById("keuze2").innerHTML = "pizza";
+            }
+            </script>
+    </section>
+</body>
+
+</html>
