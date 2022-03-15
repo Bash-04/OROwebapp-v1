@@ -132,7 +132,7 @@
         padding: 4rem 6rem;
         border-radius: 20px;
     }
-    .eten{
+    .ontbijt{
         margin-top: 0;
         display: flex;
     }
@@ -227,49 +227,4 @@
     }
     .keuze p{
         margin-top: 3%;
-    }
-
-    .keuzebox{
-        max-height: auto;
-        max-width: auto;
-    }
-    .keuzebox img{
-        max-height: 25%;
-        max-width: 25%;
-        margin-left: 5%;
-    }
-
-    .bestellijst{
-        display: flex;
-        height: 600px;
-    }
-    .bestellijst h1{
-        background-color: #f3b229;
-        font-size: x-large;
-        text-align: center;
-        margin-top: 10px;
-    }
-    .ontbijt{
-        display: inline-block;
-        background-color: #f3b229;
-        width: 25%;
-        border: 3px solid #f0ed46;
-        margin-top: 3%;
-        margin-left: 6%;
-    }
-    .lunch{
-        display: inline-block;
-        background-color: #f3b229;
-        width: 25%;
-        border: 3px solid #f0ed46;
-        margin-top: 3%;
-        margin-left: 4%;
-    }
-    .avondeten{
-        display: inline-block;
-        background-color: #f3b229;
-        width: 25%;
-        border: 3px solid #f0ed46;
-        margin-top: 3%;
-        margin-left: 4%;
     }

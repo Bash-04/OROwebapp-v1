@@ -5,7 +5,7 @@
     <meta name="viewport" consent="with=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
     <title>Ontbijt</title><link rel="icon" href="../images/user-img.png">
-    <link rel="stylesheet" href="bestellen.css">
+    <link rel="stylesheet" href="mee bezig.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 <!--script voor zichtbaarheid-->
         <script>
-            function drinken2(){
+            function drinken(){
                 var x = document.getElementById("drinken");
                 if (x.style.display = "none") {
                     x.style.display = "flex";
@@ -33,8 +33,8 @@
             } 
         </script>
         <script>
-            function drinken(){
-                var x = document.getElementById("eten");
+            function drinken2(){
+                var x = document.getElementById("ontbijt");
                 if (x.style.display = "flex") {
                     x.style.display = "none";
                 }
@@ -42,15 +42,15 @@
         </script>
         
         <script>
-            function eten2(){
-                var x = document.getElementById("eten");
+            function eten(){
+                var x = document.getElementById("ontbijt");
                 if (x.style.display = "none") {
                     x.style.display = "flex";
                 }
             } 
         </script>
         <script>
-            function eten(){
+            function eten2(){
                 var x = document.getElementById("drinken");
                 if (x.style.display = "flex") {
                     x.style.display = "none";
@@ -97,18 +97,18 @@
                 </div>
             </section>
 
-            <section class="eten" id="eten">
+            <section class="ontbijt" id="ontbijt">
             <div class="l3">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(8)">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(9)">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(10)">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(11)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(8)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(9)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(10)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(11)">
             </div>
             <div class="l4">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(12)">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(13)">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(14)">
-                <img class="knop" src="./images/boterhammen.png" onclick="gekozen(15)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(12)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(13)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(14)">
+                <img class="knop" src="./images/brood.jpg" onclick="gekozen(15)">
             </div>
             </section>
         </section>
@@ -116,58 +116,26 @@
         <section class="bestelling">
             <h1>MIJN BESTELLING</h1>
             <div class="keuze">
-                <div class="keuzebox">
-                    <p id=0></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=1></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=2></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=3></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=4></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=5></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=6></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=7></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=8></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=9></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=10></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=11></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=12></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=13></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=14></p>
-                </div>
-                <div class="keuzebox">
-                    <p id=15></p>
-                </div>
+                <p id=0></p>
+                <p id=1></p>
+                <p id=2></p>
+                <p id=3></p>
+                <p id=4></p>
+                <p id=5></p>
+                <p id=6></p>
+                <p id=7></p>
+                <p id=8></p>
+                <p id=9></p>
+                <p id=10></p>
+                <p id=11></p>
+                <p id=12></p>
+                <p id=13></p>
+                <p id=14></p>
+                <p id=15></p>
             </div>
 
     <script>
-    const Eten = ["<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>", "<img src='./images/boterhammen.png'/>"];
+    const Eten = ["<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/water.png'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>", "<img src='./images/brood.jpg'/>"];
 
 
     function gekozen(i) {
