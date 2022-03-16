@@ -35,7 +35,7 @@
     .btn1 a{
         background-color: #f3b229;
     }
-    .buttondrinken{
+    .buttondranken{
         display: inline-block;
         background-color: #f3b229;
         margin-top: 2%;
@@ -110,7 +110,7 @@
         height: 100%;
         width: 65%;
     }
-    .drinken{
+    .dranken{
         display: none;
     }
     .l1{
@@ -160,11 +160,13 @@
         margin-top: 5%;
         width: 80%;
         margin-right: 0;
+        cursor: pointer;
     }
     .knop{
         opacity: 100;
         margin-top: 5%;
         width: 80%;
+        cursor: pointer;
     }
 
     .bestelling{
@@ -232,6 +234,7 @@
     .keuzebox{
         max-height: auto;
         max-width: auto;
+        cursor: pointer;
     }
     .keuzebox img{
         max-height: 25%;
