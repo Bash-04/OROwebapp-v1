@@ -16,3 +16,6 @@ https://www.oro.nl/
 
 #### Use
 To be able to fully use it you would need to add your own SQLite/SQL database.
+
+#### Result
+At the end of the project we were given an 8,5 out of 10 for the finished application and it was at propaedeutic level.
